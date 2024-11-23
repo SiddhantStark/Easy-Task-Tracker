@@ -7,8 +7,8 @@ import { User } from './user/user.model';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [HeaderComponent, UserComponent, TasksComponent],
+  // standalone: true,
+  // imports: [HeaderComponent, UserComponent, TasksComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
